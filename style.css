@@ -1,0 +1,31 @@
+/* Center the task manager container */
+#task-container {
+    width: 300px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+/* Style the input and button */
+#task-input {
+    width: 200px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#add-task-btn {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Style the task list */
+#task-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+}
